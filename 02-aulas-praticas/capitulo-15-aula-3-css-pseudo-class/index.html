@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS pseudo-class</title>
+
+    <style>
+        div{
+            display: inline-block;
+            text-align: center;
+            background-color: gray;
+            border: 1px solid black; /*O famoso shorthand, o código facilitador de tudo*/
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover{
+            background-color: yellow;
+        }
+
+        div#txt_escondido > p{
+            display: none;
+        }
+
+        div#txt_escondido:hover > p{
+            font-size: 20px;
+            background-color: red;
+            color: black;
+            display: block;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <H1>CSS pseudo-class</H1>
+    <p>Nessa aula acabamos vendo um pouco sobre as <strong>DIV´s que ocupam uma linha toda dentro do HTML.</strong> Vimos tag chamada de display; inline-block → que coloca tudo na mesma linha e vai quebrando para baixo conforme o espaço diminui</p>
+    <p>Vimos que as classes são feitas como .nome_da_classe{}, já as pseudoclasses são feitas por ":". Elas precisam estar relacionadas a um elemento ou uma classe. Elas tratam de um estado de um elemento.</p>
+
+    <ul>
+        <li>elemento <strong>:HOVER</strong> → Vai tratar do elemento quando o mouse passar por cima.</li>
+    </ul>
+
+    <p>Outra coisa muito legal que vimos na aula foi a questão de um texto estar escondido dentro de uma DIV.</p>
+    <p>Primeiro de tudo, nós informamos no cabeçalho style que há um elemento p escoldido através de:</p>
+
+    <strong>
+        <code><pre>
+            nome_da_div &gt; p {
+                display: none;
+            }
+        </pre></code>
+    <p>Depois disso, precisaremos fazer uma regra pro código acima.</p>
+        <code><pre>
+            nome_da_div &gt; p: hover{
+                estilização que você deseja 
+            }
+        </pre></code>
+    </strong>
+
+    <hr>
+    <br>
+
+    <div id="d1">1</div>
+    <div id="d2">2</div>
+    <div id="d3">3</div>
+    <br>
+    <section>
+        <br>
+        <p>Passe o mouse abaixo e veja o texto escondido!</p>
+        <div id="txt_escondido">
+        Aqui há um texto escondido, passe o mouse para ver
+        <p>Ora, ora, fui encontrado! Socorro. Sou o texto secreto!</p>
+        </div>
+    </section>
+</body>
+</html>

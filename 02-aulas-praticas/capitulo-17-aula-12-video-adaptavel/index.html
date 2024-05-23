@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VÍDEOS RESPONSIVOS</title>
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .video{
+            background-color: gray;
+            padding: 20px;
+            padding-bottom: 55%;
+            position: relative;
+        }
+
+        div.video > iframe{
+            position: absolute ;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Nessa aula, vamos aprender a como centralizar um iframe de vídeo de uma plataforma e deixa-lá mais responsiva. <br>
+    Para isso, coloque o seu elemento dentro de um DIV</h1>
+
+
+    <code>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=rk0OtQXAehmB-jeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </code>
+</body>
+</html>

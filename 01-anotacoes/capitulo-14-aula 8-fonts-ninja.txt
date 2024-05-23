@@ -1,0 +1,1 @@
+Nessa aula falamos apenas sobre uma ferramenta chamada de fonte ninja, que é capaz de informar você qual a fonte que qualquer site está usando. Muito útil! Ela mostra toda a estilização do letra!

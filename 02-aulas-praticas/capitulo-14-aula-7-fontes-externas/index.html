@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Fontes externas</title>
+
+    <style>        
+        @font-face {
+            font-family: MickeyMouse;
+            src: url('mickeymouseline.otf') format('opentype'), url('mickeymouse.otf') format('opentype'); 
+            font-weight: normal;
+        }    
+
+        h2{
+            font-family: MickeyMouse;
+            font-weight: normal;
+            font-size: 5em;
+            font-style: none;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Aplicando fontes externas na nossa página, fora do google fontes</h1>
+    <p>Nessa aula, usamos fontes que não existiam no google fontes. O site usado foi o  <a href="https://www.dafont.com/pt/" target="_blank">dafont.com</a>, aí você baixa o arquivo, descompacta e joga o arquivo dentro da pasta de desenvolvimento.</p>
+    <br>
+    <p>Ao escolher uma fonte, sempre veja os glifos. <strong>Algumas fontes não possuem glifos de acentuação!</strong></p> 
+
+    <h3>Formatos de arquivo:</h3>
+    <ul style="list-style: none;">
+        <li><strong>.OTF - open type</strong></li>
+        <li><strong>.TTF - truetype</strong></li>
+        <li><strong>embedded-opentype</strong></li>
+        <li><strong>truetype-aat - apple advanced typograpy</strong></li>
+        <li><strong>.svg</strong></li>
+    </ul>
+
+    <p>Dpois disso, será necessário você ir até um documento css ou no style local da sua página e usar:</p>
+    <p><code>
+        @fonte-face{<br>
+            font-family: nome_da_fonte;
+            url(caminho do arquivo) format(formato do seu arquivo);
+        }
+    </code></p>
+    <p>Exemplo:</p>
+    <code>
+        @font-face { <br>
+            font-family: MickeyMouse; <strong>(Você escolhe o nome que deseja dar)</strong> <br>
+            src: url('MickeyMouseLine_PERSONAL_USE_ONLY.otf') format('opentype'), url('MickeyMouse_PERSONAL_USE_ONLY.otf') format('opentype'); <br>
+            font-weight: normal; <br>
+        }
+    </code>
+    <hr>
+
+    <h2>FONTE DO MICKEY MOUSE</h2>
+    <p style="font-family: MickeyMouse; font-size: 4EM;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia vel maiores natus incidunt voluptatibus! Deserunt soluta culpa molestiae, quisquam quas incidunt commodi ullam mollitia quam, dolores quae recusandae dignissimos itaque! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, esse. Sit quae dolorem deserunt vel alias itaque. Nesciunt cum, eos nam, ex quod similique consequatur ut deleniti ratione voluptates beatae?</p>
+</body>
+</html>

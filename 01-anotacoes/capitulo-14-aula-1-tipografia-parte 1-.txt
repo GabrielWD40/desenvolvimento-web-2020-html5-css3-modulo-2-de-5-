@@ -1,0 +1,12 @@
+Nessa aula nós vamos se preocupar com fontes, as letras que vamos escolher para o nosso projeto.
+
+Antes do surgimento das máquinas impressoras, os livros eram feitos a mão. Mas guttenberg mudou isso com a prensa automática.
+
+E foi aí que nasceu a tipografia, a ciência que visa estudar a legebilidade das letras, a melhora dela.
+
+tipo    =   impressão (colocar coisas no papel)
+grafia  =   escrita
+
+É um estudo de como eu vou escrever as coisas em papéis ou telas...
+
+A escrita, assim como as cores, também transmite sentimentos.

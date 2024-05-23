@@ -1,0 +1,20 @@
+@charset "UTF-8"; /*Regra opcional com carcteres especiais.*/
+
+body{
+    background-color: rgb(205, 255, 203); /*Cor de fundo do body*/
+    font-family: Arial, Helvetica, sans-serif; /*Família das letras do body, que não tem serifa.*/
+}
+
+h1{
+    color: rgb(4, 109, 0); /*Cor dos títulos em H1*/
+}
+
+h1#principal{
+    text-align: center; /*Alinhando o texto ao centro da página*/
+    background-color: green; /*Background dos elementos com essa id*/
+    color: white; /*Cor de texto dessa */
+}
+
+h2{
+    color: rgb(51, 77, 49); /*Cor dos títulos em H2*/
+}

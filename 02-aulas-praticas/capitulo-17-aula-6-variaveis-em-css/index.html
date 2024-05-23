@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <title>Variáveis em CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        :root {
+            --cor1: #c5ebd6;
+            --cor2: #83e1ad;
+            --cor3: #3ddc84;
+            --cor4: #2fa866;
+            --cor5: #1a5c37;
+            --cor6: #063d1e;
+
+            --cor-de-fundo: rgb(187, 237, 254);
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        main{
+            background-color: var(--cor-de-fundo);
+            color: var(--cor6);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <article>
+            <h1>CRIANDO VARIÁVEIS COM CSS</h1>
+            <p>Para criar uma variável em CSS, é necessário declará-las na raiz do seu código, para isso use: <br>
+                <pre>
+                    <code>
+                        :root {
+                            --nome_da_sua_variável: #83e1ad;
+                            --cor1: #c5ebd6;
+                            --cor2: #83e1ad;
+                            --cor3: #3ddc84;
+                            --cor4: #2fa866;
+                            --cor5: #1a5c37;
+                            --cor6: #063d1e;
+                        }
+                    </code>
+                </pre>
+                <br>
+                Essa raiz é como a área de declaração global das variáveis em outras linguagens de programação, como C, Java ou python!
+            </p>
+            <h2>Como usar?</h2>
+            <section style="background-color: black; font-weight: bolder; font-size: 24px;">
+                <p>Para usar as variáveis com as cores é muito fácil, basta informar o nome delas na estilização. Exemplo:</p>
+                <p style="color: var(--cor1);">texto 1</p>
+                <p style="color: var(--cor2);">texto 2</p>
+                <p style="color: var(--cor3);">texto 3</p>
+                <p style="color: var(--cor4);">texto 4</p>
+                <p style="color: var(--cor5);">texto 5</p>
+                <p style="color: var(--cor6);">texto 6</p>
+                <br>
+            </section>
+            <section style="background-color: orangered; color: white; width: 500px; height: 130px; font-weight: bold;">
+                <pre>
+                    <code>
+                    &lt;p&gt; style="color: var(--cor1);">texto 1&lt;/p&gt;
+                    &lt;p&gt; style="color: var(--cor2);">texto 2&lt;/p&gt;
+                    &lt;p&gt; style="color: var(--cor3);">texto 3&lt;/p&gt;
+                    &lt;p&gt; style="color: var(--cor4);">texto 4&lt;/p&gt;
+                    &lt;p&gt; style="color: var(--cor5);">texto 5&lt;/p&gt;
+                    &lt;p&gt; style="color: var(--cor6);">texto 6&lt;/p&gt;
+                    </code>
+                </pre>
+            </section>
+            <p>Aperte control + espaço e role até o final, depois escolha a opção desejada! </p>
+        </article>
+    </main>
+</body>
+</html>

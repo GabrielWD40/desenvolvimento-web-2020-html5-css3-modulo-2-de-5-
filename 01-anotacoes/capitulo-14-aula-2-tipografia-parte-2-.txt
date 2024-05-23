@@ -1,0 +1,44 @@
+Nessa aula vamos falar sobre a anatomia dos tipos, que é como eu vou desenhar cada letra.
+
+Times new romam, que é a fonte padrão da grande maioria dos navegadores de internet.
+
+Quando uma fonte é desenvolvida, nós precisamos se basear no tamanho do espaço que a letra vai ocupar.
+A letra "x" é a base de criação para todas as fontes porque com ela é possível definir a "alutra x", que é a alutra do x que interfirará em todo o tamanho das outras letras.
+
+
+Dentro da tipografia precisamos saber que existem três coisas:
+    → Altura das maiúsculas, que é a altura que uma letra maiúscula terá. Nenhuma passará disso.
+    → altura-x, que é a alutra de x minúsculo que definirá o tamanho de altura máximo de letras minúsculas.
+    → ascendente, é a altura de letras minúsculas que passam a  altura x, como o caso do 'b, d, k e l'.
+    → Calda (descendente), é a calda que sobre de cada letra, como a letra g, y.. é uma parte da letra que passa para baixo.
+    → Corpo: altura total da letra, é a soma das linhas ascendentes mais caldas, altura-x. É o tamanho total de uma fonte. 
+
+
+___________________________________________________________________________________________________________________________________________________
+
+    Serifa: É um tracinho que vai no final de algumas fontes, é aquele deseinho que chamamos de perninha. Geralmente, encontramos nas letras A, k, x... A importância dela é criar uma linha imaginária no nosso cérebro que vai nos 'guiar' e facilitar a leitura das palavras. Facilita o trabalho do cérebro para ler.
+
+    Haste: São como riscos retos, como é o caso da letra A.
+
+    Filete: Une duas ou mais astes e arcos.Como o caso da letra e.
+
+    Arco: é meio que uma barriguinha, como na letra n
+
+    esporão: É uma perninha que vai na letra b em algumas fontes.
+
+    *Essa aqui não tem, por isso, veja nos prints dos slides dessa aula.
+    Veja os prints, é mais fácil.
+
+___________________________________________________________________________________________________________________________________________________
+
+Um glifo nada mais é do que a representação das letras, seja maiúsculas ou minúsculas, que quando todas juntas, são chamadas de fontes.
+Famílias tipográficas são fontes de mesma família que possuem maneiras um pouco diferente uma das outras para representarem as coisas.
+
+
+as categorias das letras se dividem em
+
+    → serifadas: possuem serifadas.
+    → sans-serif: não possuem serifas.
+    → monoespaçada: com ou sem serifas onde o espaçamento das letras são todas iguais. 
+    → handwriting: fonte de script, ela simula a caligrafia humana.
+    → fonte display: também chamada de fonte comemorativa, é a fonte que não tamanho base, nem nada. Não se preocupa com as regras de espaçamento.

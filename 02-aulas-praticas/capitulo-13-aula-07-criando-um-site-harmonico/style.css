@@ -1,0 +1,44 @@
+@charset "UTF8"; /*Regra de padronização para que nao haja problemas com caracteres especiais nas class ou qualquer elemento estilizável*/
+
+*{
+    padding: 0; /*zerando os espaçamentos automáticos da página*/ 
+    margin: 0; /*Zerando as margins automáticas das páginas*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right, #DAFDBA, #9AEBA3, #45C4B0, #13678A, #012030);
+}
+
+main{
+    border-radius: 10px /*Arredonda a borda dos elementos */;
+    background-color: white; /*background branco na classe main*/
+    box-shadow: 5px 5px 10px #9aeba391; /* Dando um sombreamento nesse elemento
+    Box shadow tem quatro parâmetros:
+        1 - quanto essa sombra vai andar para o lado
+        2 - quanto essa sombra vai andar para baixo
+        3 - quanto essa sombra vai espalhar
+        4 - qual a cor dessa sombra
+        
+        NÃO SEPARE COM VÍRGULA*/
+    
+    width: 600px;  /*definindo a largura do elemento*/
+    padding: 20px; /*definindo a altura do elemento*/
+    margin: auto;  /*Centraliza o elemento ao centro da página independente do tamanho da tela.*/
+}
+
+h1{
+    color: #13678A; /*Definindo a cor de texto do título*/
+    text-align: center; /*centralizando os elementos de texto ao centro do elemento pai*/
+    text-shadow: 1px 1px 3px #32a6d798; /*sombreamento de texto*/
+}
+
+h2{
+    color: #45C4B0; /* Definindo a cor de texto do título */
+}
+
+p{
+    text-align: justify; /* Definindo o alinhamento do título */
+}

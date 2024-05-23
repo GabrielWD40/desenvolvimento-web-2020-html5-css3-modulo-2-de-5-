@@ -1,0 +1,5 @@
+Nessa aula, nós vamos aprender a realizar a captura de fontes de textos em imagens. Importante lembrar que nem sempre isso dará uma precisão de 100%.
+Para isso, usamos 3 sites 
+	whatfontis.com
+	fontesquirrel.com
+	myfonts.com

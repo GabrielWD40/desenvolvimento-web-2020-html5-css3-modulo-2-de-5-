@@ -1,0 +1,50 @@
+Nessa aula nós falamos sobre a harmonia das cores
+
+
+Círculo cromático: serve para ajudar a nós criarmos uma coisa simétrica, mais bonita e armônica.
+
+Cores primárias: azul, amarelo e vermellho
+
+Cores secundárias verde, laranja e roxo (mistura das primárias)
+
+Cores terciárias: amarelo esverdeado, azul esverdeado, azul arroxeado, vermelho arroxeado, vermelho alaranjado, amarelo alaranjado
+    Essas cores tem um certo tom pastel.
+
+
+
+Há uma metodologia muito legal de dividir o círculo cromático em dois, de um lado temos:
+    Cores frias:
+        amarelo esverdeado, azul esverdeado, azul arroxeado, azul, verde, roxo
+    
+    Cores quentes:
+        ermelho arroxeado, vermelho alaranjado, amarelo alaranjado, laranja, vermelho e amarelo
+
+
+Quando formos desenvolver um site, precisamos se procupar com a nossa paleta de cores. Tudo parte de uma cor principal, daí então a impotância de saber a psicologia das cores e o ramo do negócio que você vai representar.
+
+Uma paleta de cores vai ter entre 3 a 5 cores, no máximo. 
+
+Outra forma de vermos a paleta de cores é pela cor principal de uma logo-marca da empresa.
+
+
+Cores complementares: São cores contrárias uma da outra no círculo cromático.
+Se você quer muito dar um contrase para alguma coisa, ou seja, destacar algo, é necessário que você veja no círculo cromático qual a cor aposta da qual você está usando.
+
+Cores análogas: São cores que ficam uma ao lado da outra, possuem certa armonia e similaridade.
+Você pega as cores vizinhas, que estão ao lado da cor principal.
+
+Cores análogas complementares: É a junção das duas classes acima, você pega cores analogas e traça uma linha contrária da cor principal no círculo cromático e pronto. 
+
+Cores análogas relacionadas: Você vai pegar duas cores analogas, uma que esteja do lado da outra, e depois vai pular uma casinha e escolher a próxima cor. Isso é, você vai fazer um degradê das suas cores.
+
+
+Cores intercaladas: Você seleciona uma cor pulando uma casinha por vez. Se pegar azul, pula uma e vai pro roxo, que depois vai pro vermelho. Você vai intercalando.
+
+
+Cores triádicas: escolha uma cor e depois sempre pule três cores no mesmo sentido
+
+Cores em quadrado: escolha uma cor e pule duas casinhas, indo sempre numa mesma direção. Gera cores fortes e balanceadas.
+
+Cores tetráticas: Você escolhe duas cores principais, e depois seleciona as suas cores complementares, que são seus extremo oposto.
+
+Monocromia: Trabalha apenas com uma cor. Você seleciona uma cor e irá alterar duas coisas: a saturação e o brilho dela.

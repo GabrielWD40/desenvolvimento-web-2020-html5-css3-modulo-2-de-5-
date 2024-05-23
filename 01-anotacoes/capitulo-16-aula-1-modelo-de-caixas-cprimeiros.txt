@@ -1,0 +1,41 @@
+Nessa aula nós vamos falar sobre os modelos de caixas, o box sizing em HTML.
+É bem útil para organizarmos o designin do nosso site.
+
+Quando temos um HTML, tudo é exibido na forma de caixa para nós através de uma tela, e uma caixa normalmente está dentro de outra caixa.
+É tipo aquela boneca que tem uma dentro da outra, é um aninhamento.
+
+Uma caixa tem um tamanho medido por duas palavras:
+    Altura (height) |
+    largura (width) ____
+
+Por exemplo, a tag H1 tem uma caixa pré definida com tamanho e largura já pré definidos.
+Chamamos isso de PARTE DE CONTEÚDO!
+
+A linha que circula a " parte conteúdo " é chamada de BORDA. Por padrão, as bordas vem bem coladinhas no conteúdo e para resolver isso, é necessário dar um espaçamento entre conteúdo interno da caixa e a borda chamado de padding.
+
+Padding: acolchoamento, preenchimento;
+
+Isso serve para deixar a borda distante do conteúdo.
+
+
+Além do espaço interno, há o espaço externo!
+Esse espaço nós chamamos de MARGIN! é o espaçamento externo de uma caixa a outra.
+
+
+OUTLINE: 
+    Contorno ou traçado fora do elemento, mas especificamente acima da borda.
+
+
+Existem 2 tipos de caixa:
+    box-level: sempre se inicia num linha nova e ocupa a largura total da tela.
+    Ex: a tag div
+
+    inline-level: Ela não quebra linha e não ocupa a linha toda. Ela adapata o conteúdo no mesma linha do anterior, ocupa o espaço que precisa.
+    Ex: a tag span
+
+Basicamente, a diferença de uso dos dois é a seguinte: 
+    DIV → você usa quando quer quebrar linha  
+    SPAN → Você usa quando quer o conteúdo seguinte na mesma linha que o conteúdo anteriror.
+
+    Veja alguns exemplos que eu coloquei de print na nossa pastinha.
+

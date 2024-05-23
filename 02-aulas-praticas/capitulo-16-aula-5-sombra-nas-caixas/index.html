@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>SOBRAS DE CAIXAS</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            height: 100vh;
+            margin: 0;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            margin: 0;
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            margin: 0;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 1px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>BEM VINDO AO MEU SITE</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+        <article>
+            <p>Nessa aula, nós vamos <strong>APRENDER A COLOCAR SOMBRAS NAS CAIXAS</strong>. Os principais parâmetros são:</p>
+            <ul>
+                <li>deslocamento horizontal</li>
+                <li>deslocamento vertical</li>
+                <li>espalhamento</li>
+                <li>cor da sombra</li>
+            </ul>
+            <p>Há duas maneira de se fazer uma sombra, a sombra para dentro e a sombra para fora, exemplo:</p>
+
+            <section>
+                <h1>sombra externa (outset): </h1>
+                <div style="box-shadow: 20px 20px 2px black; width: 200px; height: 200px; background-color: red; margin-left: 50px;"></div>
+                <br>
+                <h1>sombra interna (inset):</h1>
+                <div style="box-shadow: inset 20px 20px 2px black ;width: 200px; height: 200px; background-color: blue; margin-left: 50px; margin-top: 30px;"></div>
+                
+                <br>
+                <p>Para diminuir a força de sombra, deixe ele mais opaca na definição do lado esquerdo da cor. Exemplo:</p>
+                <div style="margin-bottom: 60px; box-shadow: 20px 20px 2px rgba(0, 0, 0, 0.367) ;width: 200px; height: 200px; background-image: linear-gradient(to right, red, yellow
+                ); margin-left: 50px; margin-top: 30px;"></div>
+            </section>
+        </article> <br>
+        </section>
+        
+        <section id="noticias">
+            <article>
+                <h1>EXEMPLOS DE CÓDIGO DE CADA EXEMPLO:</h1>
+                <pre>
+                    <h2>Exemplo 1: </h2>
+                        <code>
+            "box-shadow: 20px 20px 2px black; <br>
+            width: 200px; height: 200px; <br>
+            background-color: red; <br>
+            margin-left: 50px;
+                        </code>
+                    </pre>
+    
+                <pre>
+                    <h2>Exemplo 2: </h2>
+                        <code>
+            "box-shadow: inset 20px 20px 2px black; <br>
+            width: 200px; height: 200px;  <br>
+            background-color: blue; <br>
+            margin-left: 50px;<br>
+            margin-top: 30px;
+                        </code>
+                    </pre>
+
+                    <pre>
+                        <h2>Exemplo 3: </h2>
+                            <code>
+            margin-bottom: 60px; <br> 
+            box-shadow: 20px 20px 2px rgba(0, 0, 0, 0.367) - <strong>com opacidade</strong><br>
+            width: 200px; height: 200px; <br>
+            background-image: linear-gradient(to right, red, yellow); <br>
+            margin-left: 50px;<br>
+            margin-top: 30px;
+                            </code>
+                        </pre>
+
+
+                <aside>
+                    <p>escrito por Gabriel Silva</p>
+                </aside>
+            </article>
+            <article>
+                <aside>
+
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <P>Desenvoldido por Gabriel </P>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Bordas com Imagens</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            height: 100vh;
+            margin: 0;
+        }
+
+        H1#T1{
+            border: 15px solid black;
+            text-align: center;
+            border-image: url('borda.png');
+            border-image-slice: 20;
+        }
+
+        H1#T2{
+            border: 15px solid black;
+            text-align: center;
+            border-image: url('borda.png');
+            border-image-slice: 20;
+            border-image-repeat: repeat;
+        }
+
+        H1#T3{
+            border: 15px solid black;
+            text-align: center;
+            border-image: url('borda.png');
+            border-image-slice: 28;
+            border-image-repeat: repeat;
+        }
+
+        H4#T4{
+            border: 15px solid transparent;
+            text-align: center;
+            border-image: url('borda.png') 28 repeat;
+
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 1px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+        
+    </style>
+
+</head>
+<body>
+    </header>
+    <main>
+        <section>
+            <p>Nessa aula, nós vamos aprender a fazer uma borda a partir de uma imagem. Para isso, será necessário algumas coisas: </p>
+            <ol>
+                <li>Ter uma imagem a qual se deseja adicionar uma borda</li>
+                <li>Aplicar a estilização borda dentro de um elemento, caso contrário, não funcionará.</li>
+                <li>border-image: url('caminho da sua imagem')</li>
+                <li>border-image-slice: Usado para fatiar uma imagem</li>
+                <li>border-image-reapet: para a imagem se repetir</li>
+                <li>border-image-reapet: stretch → Vai puxar a linha, esticando-a como no primeiro exemplo!</li>
+            </ol>
+            <br>
+            <h1 id="T1">BORDA COM IMAGEM</h1>
+            <br>
+
+            <br>
+            <h1 id="T2">BORDA COM IMAGEM</h1>
+            <br>
+
+            <br>
+            <h1 id="T3">BORDA COM IMAGEM</h1>
+            <br>
+            <p>Você pode usar um shorhand para simplificar os código abaixo:</p>
+    <pre>
+    <strong>
+    <code>
+        H1#T3{
+            border: 15px solid black;
+            text-align: center;
+            border-image: url('borda.png');
+            border-image-slice: 28;
+            border-image-repeat: repeat;
+        }
+    </strong>
+    </code>
+    </pre>
+    <p>ao invés disso, use o border-image na mesma sequência acima: </p>
+    <pre>
+    <code>
+        border-image: url('nome do arquivo') 28 repeat
+    </code>
+    </pre>
+    <P>exemplo: </P>
+
+    <pre>
+        <code>
+            H4#T4{
+                border: 15px solid transparent;
+                text-align: center;
+                border-image: url('borda.png') 28 repeat;
+            }
+        </code>
+    </pre>
+    <h4 id="T4">BORDA COM IMAGEM USANDO SHORTHAND</h4>
+    <p style="background-color: blue; text-align: center; color: white;"><strong>TEM QUE EXISTIR UMA BORDA PARA FUNCIONAR e VOCÊ PODE DEIXAR A COR TRANSPARENTE! </strong></p>
+
+        </section>
+    </main>
+    <footer>
+        <P>Desenvoldido por Gabriel </P>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS pseudo-element</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+        
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial::after{
+            content: ' ←';
+        }
+
+        .especial::before{
+            content: '→ ';
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Mais atributos das pseudoclasses e pseudoelementos</h1>
+    <p>Nessa aula vamos ver mais algumas coisas sobre as pseudoclasses, como os atributos</p>
+    <ul>
+        <li><strong>visited: quando um link é visitado. É o estilo que ele ficará.</strong></li>
+        <li><strong>Active: A cor de quando clicamos em alguma coisa.</strong></li>
+    </ul>
+
+    <p>As pseudoclasses possuem apenas um " : " já os pseudo elementos possuem " :: " dois, dois pontos.</p>
+    <p>Isso significa que ali é um pseudoclasse para elementos.</p>
+    <br>
+    <p>Nas pseudoclasses para elementos temos o <strong><em>::BEFORE</em> e <em>::AFERTER</em></strong>, que vão indicar o que vem antes de um elemento e o que vem depois.</p>
+    <br>
+    <hr>
+    <p>Agora, vamos testar o hover, active e o visited:</p>
+    <ul>
+        <li><a href="https://github.com/gabrielWD40" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/@1xxbielxx1" target="_blank">Canal do Youtube</a></li>
+        <li><a href="">Meu site</a></li>
+    </ul>
+    <br>
+
+    <p>Testando as pseudoclasses para elementos: ::AFTER e ::BEFORE</p>
+    <p><strong>Para inserir textos com ::AFTER e ::BEFORE, use <code>content=''</code>! Tem que estar em aspas simples, ok?</strong></p>
+    <ul>
+        <li><a href="https://www.youtube.com/@1xxbielxx1" target="_blank" class="especial">Exemplo de affer e before</a></li>
+    </ul>
+
+</body>
+</html>
